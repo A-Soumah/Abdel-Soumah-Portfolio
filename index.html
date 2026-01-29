@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Abdel Soumah</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="header">
+    <nav class="nav" aria-label="Hauptnavigation">
+        <div class="logo">Abdel Soumah</div>
+
+        <!-- Burger Button -->
+        <button class="burger" aria-label="Menü öffnen" aria-expanded="false">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Erfahrung</a></li>
+            <li><a href="#projects">Projekte</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+    <!-- HERO -->
+    <section class="section hero" aria-label="Startbereich">
+        <div class="hero-grid">
+            <div class="hero-image">
+                <img
+                        src="img/wandern.jpg"
+                        alt="Profilbild von Abdel Soumah"
+                        loading="lazy"
+                />
+            </div>
+
+            <div class="hero-content">
+                <p class="kicker">Hallo, ich bin</p>
+                <h1 class="headline">Abdel Soumah</h1>
+
+                <p class="subheadline">
+                    Medieninformatik-Student • Fokus: Webentwicklung
+                </p>
+
+                <p class="lead">
+                    Ich entwickle moderne Webanwendungen mit sauberem UI und solider Logik.
+                    Aktuell suche ich ein Praktikum / eine Bachelorarbeit im Bereich Webentwicklung.
+                </p>
+
+                <!-- Buttons + GitHub in einem stabilen Wrapper -->
+                <div class="hero-actions" aria-label="Schnelllinks und Social Links">
+                    <div class="quick-links">
+                        <a class="btn btn-ghost" href="img/flexibles%20lernen%20Lebenslauf%20Abdel.pdf" target="_blank" rel="noopener">
+                            Lebenslauf (PDF)
+                        </a>
+                        <a class="btn btn-primary" href="#projects">Projekte ansehen</a>
+                        <a class="btn btn-secondary" href="#contact">Kontakt</a>
+                    </div>
+
+                    <div class="socials" aria-label="Social Links">
+                        <a class="icon-link" href="https://github.com/A-Soumah" target="_blank" rel="noopener" aria-label="GitHub öffnen">
+                            <img src="img/github.png" class="icon" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-label="Über mich">
+        <div class="section-head">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Kurzprofil, Motivation und Arbeitsweise.</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-image card">
+                <img
+                        src="img/Abdel%20.jpg"
+                        alt="Foto von Abdel Soumah"
+                        loading="lazy"
+                />
+            </div>
+
+            <div class="about-content">
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-head">
+                            <img src="img/education.png" class="icon" alt="" />
+                            <h3>Education & Work</h3>
+                        </div>
+                        <p>
+                            Medieninformatik (5. Semester)<br>
+                            Werkstudent Webanwendungen (UM)<br>
+                            Fokus: Frontend, UI, kleinere Backend-APIs
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-head">
+                            <img src="img/heart-icon.jpg" class="icon" alt="" />
+                            <h3>What I Like</h3>
+                        </div>
+                        <ul class="list">
+                            <li>Web Development</li>
+                            <li>Sport</li>
+                            <li>Musik produzieren</li>
+                            <li>Reisen</li>
+                            <li>Manga lesen</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <article class="card about-text">
+                    <h3>Über mich</h3>
+                    <p>
+                        Ich mag Projekte, bei denen UX und Technik zusammenkommen: klare Strukturen,
+                        saubere Komponenten und verständliche Interfaces.
+                        Ich arbeite gern pragmatisch, teste früh und lege Wert auf Lösungen, die zuverlässig funktionieren.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-label="Erfahrung und Skills">
+        <div class="section-head">
+            <h2 class="section-title">Erfahrung</h2>
+            <p class="section-subtitle">Technologien, die ich nutze – klar gruppiert.</p>
+        </div>
+
+        <div class="skills-grid">
+            <article class="card">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">HTML</span><span class="skill-level level-strong">Fortgeschritten</span></li>
+                    <li><span class="skill-name">CSS</span><span class="skill-level level-strong">Fortgeschritten</span></li>
+                    <li><span class="skill-name">JavaScript</span><span class="skill-level level-strong">Fortgeschritten</span></li>
+                    <li><span class="skill-name">React</span><span class="skill-level level-mid">Grundlagen</span></li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">Node.js / Express</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">PHP</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">Java</span><span class="skill-level level-mid">Grundlagen</span></li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Datenbanken & Tools</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-name">MongoDB</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">MySQL</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">Git</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">Docker</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">TypeScript</span><span class="skill-level level-mid">Grundlagen</span></li>
+                    <li><span class="skill-name">SCSS</span><span class="skill-level level-mid">Grundlagen</span></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-label="Projekte">
+        <div class="section-head">
+            <h2 class="section-title">Projekte</h2>
+            <p class="section-subtitle">Auswahl meiner Projekte – mit Tech-Stack & Demo.</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project card">
+                <div class="project-img">
+                    <img src="img/TV-Search-app.PNG" alt="Screenshot: TV-Search-app" loading="lazy">
+                </div>
+
+                <div class="project-body">
+                    <h3 class="project-title">TV-Search-app</h3>
+                    <p class="project-desc">
+                        TV-Show Suche mit API, Detailansichten und sauberem UI – responsive umgesetzt.
+                    </p>
+
+                    <ul class="tags" aria-label="Technologien">
+                        <li>JavaScript</li><li>API</li><li>CSS</li>
+                    </ul>
+
+                    <div class="project-actions">
+                        <a class="btn btn-secondary" href="https://github.com/A-Soumah/TV-Search-app" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn btn-primary" href="https://nimble-marshmallow-3a0a93.netlify.app/" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project card">
+                <div class="project-img">
+                    <img src="img/Yu-Gi-Oh.png" alt="Screenshot: Yu-Gi-Oh Memory" loading="lazy">
+                </div>
+
+                <div class="project-body">
+                    <h3 class="project-title">Yu-Gi-Oh Memory</h3>
+                    <p class="project-desc">
+                        Memory Game mit Spielzustand, Score/Turns und responsive Layout.
+                    </p>
+
+                    <ul class="tags">
+                        <li>JavaScript</li><li>HTML</li><li>CSS</li>
+                    </ul>
+
+                    <div class="project-actions">
+                        <a class="btn btn-secondary" href="https://github.com/A-Soumah/Yu-Gi-Oh-Memory-Game" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn btn-primary" href="https://a-soumah.github.io/Yu-Gi-Oh-Memory-Game/" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project card">
+                <div class="project-img">
+                    <img src="img/passwort-generator-pic.PNG" alt="Screenshot: Password Generator" loading="lazy">
+                </div>
+
+                <div class="project-body">
+                    <h3 class="project-title">Password-Generator</h3>
+                    <p class="project-desc">
+                        Generator mit Optionen (Länge, Zeichenklassen) und Copy-to-Clipboard.
+                    </p>
+
+                    <ul class="tags">
+                        <li>JavaScript</li><li>HTML</li><li>CSS</li>
+                    </ul>
+
+                    <div class="project-actions">
+                        <a class="btn btn-secondary" href="https://github.com/A-Soumah/password-generator" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn btn-primary" href="https://effulgent-moxie-40c1a5.netlify.app/" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-label="Kontakt">
+        <div class="section-head">
+            <h2 class="section-title">Schreib mir</h2>
+            <p class="section-subtitle">Am besten per E-Mail – ich antworte schnell.</p>
+        </div>
+
+        <div class="contact-card card">
+            <div class="contact-row">
+                <img src="img/email.png" class="icon" alt="" />
+                <a href="mailto:abdel.soumah@iem.thm.de">abdel.soumah@iem.thm.de</a>
+            </div>
+
+            <div class="contact-row">
+                <span class="muted">Optional:</span>
+                <a href="img/lebenslauf-Abdel 2025.pdf" target="_blank" rel="noopener">Lebenslauf</a>
+                <span class="dot">•</span>
+                <a href="https://github.com/A-Soumah" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER mit dauerhaftem Impressum -->
+<footer class="footer footer-impressum">
+    <div class="footer-impressum-content">
+        <h3>Impressum</h3>
+        <p class="muted"><strong>Angaben gemäß § 5 TMG</strong></p>
+
+        <p>
+            Abdel Soumah<br>
+            Karlstraße 37<br>
+            65185 Wiesbaden<br>
+            Deutschland
+        </p>
+
+        <p>
+            <strong>Kontakt:</strong><br>
+            E-Mail: <a href="mailto:abdel.soumah@iem.thm.de">abdel.soumah@iem.thm.de</a>
+        </p>
+
+        <p>
+            <strong>Verantwortlich für den Inhalt:</strong><br>
+            Abdel Soumah
+        </p>
+
+        <p class="muted">
+            Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links.
+        </p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> Abdel Soumah</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="index.js"></script>
+</body>
+</html>
